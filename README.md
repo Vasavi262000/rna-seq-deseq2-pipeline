@@ -57,6 +57,7 @@ It uses shrinkage estimators to reduce noise and improve effect size estimates�
 ### 1. 📥 Download Raw Data
 
 - Count matrix and metadata are downloaded from the following links:
+  
   Count matrix - https://www.ebi.ac.uk/gxa/experiments-content/E-MTAB-8031/resources/DifferentialSecondaryDataFiles.RnaSeq/raw-counts
   Metadata - https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-8031/E-MTAB-8031.sdrf.txt
 
@@ -123,6 +124,7 @@ BiocManager::install(c("DESeq2", "EnhancedVolcano", "apeglm",
 ▶️ Run the Script
 
 source("DESEQ2_analysis.R")
+
 All output files (CSV tables and plots) will be saved in the /results directory.
 
 ---
